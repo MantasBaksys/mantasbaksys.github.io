@@ -61,7 +61,7 @@ sections:
     design:
       columns: '2'
       view: compact
-    - block: Experience
+    - block: experience
     content:
       title: Experience
       # Date format for experience
