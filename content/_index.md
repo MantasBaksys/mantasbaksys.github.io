@@ -55,7 +55,7 @@ sections:
       view: citation
   - block: experience
     content:
-      title: Experience
+      title: Research Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -111,12 +111,4 @@ sections:
               * Co-authored a paper pre-print
     design:
       columns: '2'
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-        
-    design:
-      columns: '2'
-      view: compact
 ---
