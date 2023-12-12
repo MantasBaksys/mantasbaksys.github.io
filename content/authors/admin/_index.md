@@ -11,13 +11,13 @@ superuser: true
 role: Part III Mathematics student at the University of Cambridge
 
 # Short bio (displayed in user profile at end of posts)
-bio: My academic interests include interactive theorem proving
+bio:
 
 # Interests to show in About widget
 interests:
   - Formal theorem proving
   - Automated proof discovery using ML tools
-  - Interactive theorem proving tools and interfaces
+  - Interactive theorem provers and their ecosystems
 
 # Education to show in About widget
 education:
@@ -33,7 +33,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mb2412@cam.ac.uk'
   - icon: github
     icon_pack: fab
     link: https://github.com/MantasBaksys
@@ -48,5 +48,5 @@ social:
 highlight_name: true
 ---
 
-Hi! I am a Part III Mathematics student at the Univerisity of Cambridge with research interests in the area of formal mathematics.
+Hi! I am currently Part III Mathematics student at the University of Cambridge. My research interests lie the broad area of formal mathematics, in which I have already completed sever research internships during my time as an undergraduate. In particular, I am interested in automated proof-discovery using both ML and classical approaches and formalisation of mathematics. Feel free to reach out if you find these topics interesting and would like to chat!
 {style="text-align: justify;"}
