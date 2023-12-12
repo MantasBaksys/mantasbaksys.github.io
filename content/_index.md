@@ -67,8 +67,8 @@ sections:
           company_url: ''
           company_logo: org-gc
           location: Cambridge, UK
-          date_start: '2023-07'
-          date_end: '2023-10'
+          date_start: '2023-07-01'
+          date_end: '2023-10-01'
           description: |2-
               * Worked in a research group led by Professor Timothy Gowers on automated theorem-proving
               * Focus on motivated proof discovery using the Lean theorem prover
@@ -78,8 +78,8 @@ sections:
           company_url: ''
           company_logo: org-x
           location: Cambridge, UK
-          date_start: '2022-06'
-          date_end: '2022-08'
+          date_start: '2022-06-01'
+          date_end: '2022-08-01'
           description: |2-
             * Worked in the ALEXANDRIA group supervised by Dr Angeliki Koutsoukou-Argyraki
             * Successful formalisation of Master’s level material in Additive Combinatorics including the Balog-Szemeredi-Gowers theorem
@@ -89,8 +89,8 @@ sections:
           company_url: ''
           company_logo: org-x
           location: Remote
-          date_start: '2021-12'
-          date_end: '2022-01'
+          date_start: '2021-12-01'
+          date_end: '2022-01-01'
           description: |2-
             * Worked with Stanislas Polu on training ML models to find formal proofs using the Lean theorem prover
             * Analyzed properties of trained models and investigated new research directions
@@ -100,8 +100,8 @@ sections:
           company_url: ''
           company_logo: org-gc
           location: Cambridge, UK
-          date_start: '2021-06'
-          date_end: '2021-08'
+          date_start: '2021-06-01'
+          date_end: '2021-08-01'
           description: |2-
               * Worked with Dr Aled Walker on a Summer Research Placement spanning 8 weeks
               * Investigated the Multiplication Table problem for bipartite graphs
