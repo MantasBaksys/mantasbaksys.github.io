@@ -42,7 +42,7 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: experience
+  - block: Research experience
     content:
       title: Experience
       # Date format for experience
@@ -54,27 +54,50 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Student Researcher
+          company: Department of Mathematics and Mathematical Statistics, University of Cambridge
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+          location: Cambridge, UK
+          date_start: '2023-07'
+          date_end: '2023-10'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              * Worked in a research group led by Professor Timothy Gowers on automated theorem-proving
+              * Focus on motivated proof discovery using the Lean theorem prover
+              * Jointly developed an interactive Lean program to guide further research in human-oriented proving
+        - title: Student Researcher
+          company: Computer Lab, University of Cambridge
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: Cambridge, UK
+          date_start: '2022-06'
+          date_end: '2022-08'
+          description: |2-
+            * Worked in the ALEXANDRIA group supervised by Dr Angeliki Koutsoukou-Argyraki
+            * Successful formalisation of Master’s level material in Additive Combinatorics including the Balog-Szemeredi-Gowers theorem
+            * Co-authored a paper accepted to CPP 2023
+        - title: Research Intern
+          company: Open AI
+          company_url: ''
+          company_logo: org-x
+          location: Remote
+          date_start: '2021-12'
+          date_end: '2022-01'
+          description: |2-
+            * Worked with Stanislas Polu on training ML models to find formal proofs using the Lean theorem prover
+            * Analyzed properties of trained models and investigated new research directions
+            * Co-authored a paper accepted to ICLR 2023
+        - title: Student Researcher
+          company: Department of Mathematics and Mathematical Statistics, University of Cambridge
+          company_url: ''
+          company_logo: org-gc
+          location: Cambridge, UK
+          date_start: '2021-06'
+          date_end: '2021-08'
+          description: |2-
+              * Worked with Dr Aled Walker on a Summer Research Placement spanning 8 weeks
+              * Investigated the Multiplication Table problem for bipartite graphs
+              * Co-authored a paper pre-print
     design:
       columns: '2'
   - block: collection
@@ -101,60 +124,4 @@ sections:
     design:
       columns: '2'
       view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
-      # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
-      autolink: true
-      # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '2'
 ---
