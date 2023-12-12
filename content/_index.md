@@ -39,29 +39,18 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Bio
+      title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: collection
+  - block: skills
     content:
-      title: Publications
-      filters:
-        folders:
-          - publication
+      title: Skills
+      text: ''
+      # Choose a user to display skills from (a folder name within `content/authors/`)
+      username: admin
     design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-    - block: experience
+      columns: '1'
+  - block: experience
     content:
       title: Experience
       # Date format for experience
@@ -119,4 +108,23 @@ sections:
               * Co-authored a paper pre-print
     design:
       columns: '2'
+  - block: collection
+    content:
+      title: Publications
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
+    id: talks
+    content:
+      title: Recent & Upcoming Talks
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
 ---
