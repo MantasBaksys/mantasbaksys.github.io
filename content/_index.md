@@ -68,7 +68,7 @@ sections:
         - title: Student Researcher
           company: Department of Mathematics and Mathematical Statistics, University of Cambridge
           company_url: ''
-          company_logo: uni
+          company_logo:
           location: Cambridge, UK
           date_start: '2023-07-01'
           date_end: '2023-10-01'
@@ -79,7 +79,7 @@ sections:
         - title: Student Researcher
           company: Computer Lab, University of Cambridge
           company_url: ''
-          company_logo: uni
+          company_logo:
           location: Cambridge, UK
           date_start: '2022-06-01'
           date_end: '2022-08-01'
@@ -90,7 +90,7 @@ sections:
         - title: Research Intern
           company: Open AI
           company_url: ''
-          company_logo: open ai
+          company_logo:
           location: Remote
           date_start: '2021-12-01'
           date_end: '2022-01-01'
@@ -101,7 +101,7 @@ sections:
         - title: Student Researcher
           company: Department of Mathematics and Mathematical Statistics, University of Cambridge
           company_url: ''
-          company_logo: uni
+          company_logo:
           location: Cambridge, UK
           date_start: '2021-06-01'
           date_end: '2021-08-01'
