@@ -4,6 +4,8 @@
 first_name: Mantas
 last_name: Bakšys
 
+contact: mb2412@cam.ac.uk
+
 # Is this the primary user of the site?
 superuser: true
 
