@@ -1,5 +1,5 @@
 ---
-title: On number of different sized induced subgraphs of Bipartite-Ramsey graphs
+title: On number of different sized induced subgraphs of Bipartite-Ramsey graphs (arXiv pre-print)
 authors:
 - Mantas Baksys
 - Xuanang Chen
