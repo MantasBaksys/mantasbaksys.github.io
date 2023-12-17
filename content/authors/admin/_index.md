@@ -50,5 +50,5 @@ social:
 highlight_name: true
 ---
 
-Hi! I am currently Part III Mathematics student at the University of Cambridge. My research interests lie the broad area of formal mathematics, in which I have already completed sever research internships during my time as an undergraduate. In particular, I am interested in automated proof-discovery using both ML and classical approaches and formalisation of mathematics. Feel free to reach out if you find my research interesting!
+Hi! I am currently a Part III Mathematics student at the University of Cambridge. My research interests lie the broad area of formal mathematics, in which I have already completed sever research internships during my time as an undergraduate. In particular, I am interested in automated proof-discovery using both ML and classical approaches and formalisation of mathematics. Feel free to reach out if you find my research interesting!
 {style="text-align: justify;"}
