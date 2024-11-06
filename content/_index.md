@@ -65,9 +65,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Contributor
+          company: Project Numina
+          company_url: 'https://projectnumina.ai/'
+          location: 'Remote'
+          date_start: '2024-09-20'
+          description: |2-
+            Building autoformalization and prover models in Lean
+
+
         - title: Student Researcher
           company: Department of Mathematics and Mathematical Statistics, University of Cambridge
-          company_url: ''
+          company_url: 'https://www.maths.cam.ac.uk/'
           company_logo:
           location: Cambridge, UK
           date_start: '2023-07-01'
@@ -75,10 +84,10 @@ sections:
           description: |2-
               * Worked in a research group led by Professor Timothy Gowers on automated theorem-proving
               * Focus on motivated proof discovery using the Lean theorem prover
-              * Jointly developed an interactive Lean program to guide further research in human-oriented proving
+              * Jointly developed an interactive Lean program to guide further research in human-oriented theorem proving
         - title: Student Researcher
           company: Computer Lab, University of Cambridge
-          company_url: ''
+          company_url: 'https://www.cst.cam.ac.uk/'
           company_logo:
           location: Cambridge, UK
           date_start: '2022-06-01'
@@ -89,7 +98,7 @@ sections:
             * Co-authored a paper accepted to CPP 2023
         - title: Research Intern
           company: Open AI
-          company_url: ''
+          company_url: 'https://openai.com/'
           company_logo:
           location: Remote
           date_start: '2021-12-01'
@@ -100,7 +109,7 @@ sections:
             * Co-authored a paper accepted to ICLR 2023
         - title: Student Researcher
           company: Department of Mathematics and Mathematical Statistics, University of Cambridge
-          company_url: ''
+          company_url: 'https://www.maths.cam.ac.uk/'
           company_logo:
           location: Cambridge, UK
           date_start: '2021-06-01'

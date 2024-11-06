@@ -10,23 +10,30 @@ contact: mb2412@cam.ac.uk
 superuser: true
 
 # Role/position/tagline
-role: Part III Mathematics student at the University of Cambridge
+role: PhD student at the Computer Lab, University of Cambridge
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: 
 
 # Interests to show in About widget
 interests:
+  - Automated theorem proving using Reinforcement Learning
   - Formal theorem proving
-  - Automated proof discovery using ML tools
   - Interactive theorem provers and their ecosystems
 
 # Education to show in About widget
 education:
   courses:
-    - course: BA & MMath in Mathematics
+    - course: BA, Mathematics
       institution: University of Cambridge
-      year: 2020-2024
+      year: 2020-2023
+    - course: MMath, Mathematics
+      instituion: University of Cambridge
+      year: 2023-2024
+    - course: PhD, Computer Science
+      institution: Computer Lab, University of Cambridge
+      year: 2024-2028 (expected)
+    
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -50,5 +57,5 @@ social:
 highlight_name: true
 ---
 
-Hi! I am currently a Part III Mathematics student at the University of Cambridge. My research interests lie the broad area of formal mathematics, in which I have already completed sever research internships during my time as an undergraduate. In particular, I am interested in automated proof-discovery using both ML and classical approaches and formalisation of mathematics. Feel free to reach out if you find my research interesting!
+I am a PhD student at the Computer Lab, University of Cambridge supervised by Prof. Sean Holden. My research interests lie the broad areas of Automated Theorem Proving and Formal Mathematics. In particular, I am interesting in application of Machine Learning for proof-discovery in the setting of interactive theorem provers. Feel free to reach out if you find my research interesting!
 {style="text-align: justify;"}
