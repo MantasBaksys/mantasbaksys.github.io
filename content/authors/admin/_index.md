@@ -10,7 +10,7 @@ contact: mb2412@cam.ac.uk
 superuser: true
 
 # Role/position/tagline
-role: PhD student at the Computer Lab, University of Cambridge
+role: PhD student in Computer Science, University of Cambridge
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
