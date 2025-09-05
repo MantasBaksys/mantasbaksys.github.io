@@ -143,5 +143,5 @@ sections:
           description: Presented Kimina Prover to the AWS Reasoning Group. [Amazon Web Services (AWS)](https://aws.amazon.com/), London, UK, August 2025.
           icon: presentation-chart-line
     design:
-      columns: '2'
+      columns: '1'
 ---
