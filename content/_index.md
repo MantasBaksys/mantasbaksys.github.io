@@ -135,21 +135,15 @@ sections:
   - block: accomplishments
     content:
       title: Talks
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
       items:
         - title: Invited Talk on Kimina Prover
-          date_start: '2025-09-03'
-          date_end: '2025-09-03'
           organization: AITP 2025 Conference
           organization_url: 'https://aitp-conference.org/2025/'
-          description: Joint invited talk with Jonas Bayer presenting Kimina Prover. Aussois, France.
+          description: Joint invited talk with Jonas Bayer presenting Kimina Prover. Aussois, France, September 2025.
         - title: 'Kimina Prover: Test-time RL enabled Theorem Proving with Large Formal Reasoning Models'
-          date_start: '2025-08-27'
-          date_end: '2025-08-27'
           organization: Amazon Web Services (AWS)
           organization_url: 'https://aws.amazon.com/'
-          description: Presented Kimina Prover to the AWS Reasoning Group. London, UK.
+          description: Presented Kimina Prover to the AWS Reasoning Group. London, UK, August 2025.
     design:
       columns: '2'
 ---
