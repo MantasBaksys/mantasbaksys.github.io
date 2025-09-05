@@ -132,33 +132,24 @@ sections:
               * Co-authored a paper pre-print
     design:
       columns: '2'
-  - block: experience
+  - block: accomplishments
     content:
       title: Talks
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - title: Invited Talk on Kimina Prover
-          company: AITP 2025 Conference
-          company_url: 'https://aitp-conference.org/2025/'
-          location: 'Aussois, France'
+          date_start: '2025-09-03'
           date_end: '2025-09-03'
-          description: |2-
-            Joint invited talk with Jonas Bayer presenting Kimina Prover
-
-        - title: Kimina Prover - Test-time RL enabled Theorem Proving with Large Formal Reasoning Models
-          company: Amazon Web Services (AWS)
-          company_url: 'https://aws.amazon.com/'
-          location: 'London, UK'
+          organization: AITP 2025 Conference
+          organization_url: 'https://aitp-conference.org/2025/'
+          description: Joint invited talk with Jonas Bayer presenting Kimina Prover. Aussois, France.
+        - title: 'Kimina Prover: Test-time RL enabled Theorem Proving with Large Formal Reasoning Models'
+          date_start: '2025-08-27'
           date_end: '2025-08-27'
-          description: |2-
-            Presented Kimina Prover to the AWS Reasoning Group
+          organization: Amazon Web Services (AWS)
+          organization_url: 'https://aws.amazon.com/'
+          description: Presented Kimina Prover to the AWS Reasoning Group. London, UK.
     design:
       columns: '2'
 ---
