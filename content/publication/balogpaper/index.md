@@ -4,8 +4,8 @@ authors:
 - Angeliki Koutsoukou-Argyraki
 - Mantas Bakšys
 - Chelsea Edmonds
-date: '2023-01-01'
-publishDate: '2023-12-12T16:39:33.377139Z'
+date: '2023-01-15'
+publishDate: '2023-01-15T00:00:00Z'
 publication_types:
 - paper-conference
 publication: '*Proceedings of the 12th ACM SIGPLAN International Conference on Certified

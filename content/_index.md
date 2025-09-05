@@ -81,9 +81,9 @@ sections:
           location: 'Remote'
           date_start: '2024-09-01'
           description: |2-
-            * Using RL techniques to train AI models for Interactive Theorem Proving in Lean 4
+            * Using RL techniques to train AI models for Interactive Theorem Proving in Lean
             * Development of Lean-Python interfaces for dataset and benchmark creation and curation
-            * Released open-source models for autoformalization and proving in Lean 4 with state-of-the-art performance on the miniF2F benchmark
+            * Released open-source models for autoformalization and proving in Lean with state-of-the-art performance on the miniF2F benchmark
 
 
         - title: Student Researcher
@@ -130,6 +130,39 @@ sections:
               * Worked with Dr Aled Walker on a Summer Research Placement spanning 8 weeks
               * Investigated the Multiplication Table problem for bipartite graphs
               * Co-authored a paper pre-print
+    design:
+      columns: '2'
+  - block: experience
+    content:
+      title: Invited Talks
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Invited Talk on Kimina Prover
+          company: AITP 2025 Conference
+          company_url: 'https://aitp-conference.org/2025/'
+          location: 'Aussois, France'
+          date_start: '2025-09-03'
+          description: |2-
+            * Joint invited talk with Jonas Bayer presenting Kimina Prover
+            * Presented our reinforcement learning approach to automated theorem proving
+            * Demonstrated state-of-the-art performance on formal reasoning benchmarks
+
+        - title: Kimina Prover Talk
+          company: Amazon Web Services (AWS)
+          company_url: 'https://aws.amazon.com/'
+          location: 'London, UK'
+          date_start: '2025-08-27'
+          description: |2-
+            * Presented Kimina Prover to the AWS Reasoning Group
+            * Discussed applications of RL for program verification and formal reasoning
+            * Shared insights on scaling formal reasoning models
     design:
       columns: '2'
 ---

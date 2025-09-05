@@ -7,11 +7,12 @@ authors:
 - Mantas Baksys
 - Igor Babuschkin
 - Ilya Sutskever
-date: '2022-01-01'
-publishDate: '2023-12-12T16:39:33.393529Z'
+date: '2023-05-01'
+publishDate: '2023-05-01T00:00:00Z'
 publication_types:
 - article-journal
 publication: 'Top 25% paper at ICLR 2023'
+featured: true
 links:
 - name: URL
   url: https://arxiv.org/abs/2202.01344

@@ -17,16 +17,12 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
-  - 'Equal contribution'
 
-date: '2025-04-01T00:00:00Z'
+date: '2025-04-15T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2025-04-01T00:00:00Z'
+publishDate: '2025-04-15T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -38,10 +34,10 @@ publication_types: ['3']
 publication: '*arXiv preprint arXiv:2504.11354*'
 publication_short: ''
 
-abstract: We present Kimina-Prover Preview, a state-of-the-art formal reasoning model developed using reinforcement learning techniques for Interactive Theorem Proving in Lean 4. Our approach demonstrates significant improvements on the miniF2F benchmark, showcasing the potential of RL-driven approaches for automated theorem proving.
+abstract: We present Kimina-Prover Preview, a state-of-the-art formal reasoning model developed using reinforcement learning techniques for Interactive Theorem Proving in Lean. Our approach demonstrates significant improvements on the miniF2F benchmark, showcasing the potential of RL-driven approaches for automated theorem proving.
 
 # Summary. An optional shortened abstract.
-summary: A preview of our state-of-the-art formal reasoning model using reinforcement learning for theorem proving in Lean 4.
+summary: A preview of our state-of-the-art formal reasoning model using reinforcement learning for theorem proving in Lean.
 
 tags: []
 
