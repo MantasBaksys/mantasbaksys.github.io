@@ -132,7 +132,7 @@ sections:
               * Co-authored a paper pre-print
     design:
       columns: '2'
-  - block: accomplishments
+  - block: accomplishments-no-dates
     content:
       title: Talks
       items:

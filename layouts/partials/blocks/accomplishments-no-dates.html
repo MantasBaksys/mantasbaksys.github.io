@@ -1,0 +1,38 @@
+{{/* Hugo Blox: Accomplishments */}}
+{{/* Documentation: https://docs.hugoblox.com/reference/content-blocks/ */}}
+{{/* License: https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md */}}
+
+{{/* Initialise */}}
+{{ $page := .root }}
+{{ $block := .block }}
+{{ $columns := $block.design.columns | default "2" }}
+
+<div class="col-12 {{if ne $columns "1"}}col-lg-8{{end}}">
+  {{ with $block.content.title }}<h2 class="mb-4">{{ . | markdownify | emojify }}</h2>{{ end }}
+
+  {{ range $block.content.items }}
+  <div class="card experience course">
+    <div class="card-body">
+      {{ if .organization_url }}
+        <div class="section-subheading card-title exp-title text-muted my-0">
+          <a href="{{ .organization_url }}" target="_blank" rel="noopener">{{ .organization | markdownify | emojify }}</a>
+        </div>
+      {{ else }}
+        <div class="section-subheading card-title exp-title text-muted my-0">{{ .organization | markdownify | emojify }}</div>
+      {{ end }}
+      
+      <div class="section-subheading card-title exp-company text-muted my-0">{{ .title | markdownify | emojify }}</div>
+      
+      {{ with .description }}
+      <div class="card-text">{{ . | markdownify | emojify }}</div>
+      {{ end }}
+      
+      {{ if .certificate_url }}
+        <a class="card-link" href="{{ .certificate_url }}" target="_blank" rel="noopener">
+          {{ i18n "see_certificate" | default "See certificate" }}
+        </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
