@@ -132,18 +132,16 @@ sections:
               * Co-authored a paper pre-print
     design:
       columns: '2'
-  - block: accomplishments-no-dates
+  - block: features
     content:
       title: Talks
       items:
-        - title: Invited Talk on Kimina Prover
-          organization: AITP 2025 Conference
-          organization_url: 'https://aitp-conference.org/2025/'
-          description: Joint invited talk with Jonas Bayer presenting Kimina Prover. Aussois, France, September 2025.
-        - title: 'Kimina Prover: Test-time RL enabled Theorem Proving with Large Formal Reasoning Models'
-          organization: Amazon Web Services (AWS)
-          organization_url: 'https://aws.amazon.com/'
-          description: Presented Kimina Prover to the AWS Reasoning Group. London, UK, August 2025.
+        - name: Invited Talk on Kimina Prover
+          description: Joint invited talk with Jonas Bayer presenting Kimina Prover. [AITP 2025 Conference](https://aitp-conference.org/2025/), Aussois, France, September 2025.
+          icon: presentation-chart-line
+        - name: 'Kimina Prover: Test-time RL enabled Theorem Proving with Large Formal Reasoning Models'
+          description: Presented Kimina Prover to the AWS Reasoning Group. [Amazon Web Services (AWS)](https://aws.amazon.com/), London, UK, August 2025.
+          icon: presentation-chart-line
     design:
       columns: '2'
 ---
