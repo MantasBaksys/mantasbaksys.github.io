@@ -134,7 +134,7 @@ sections:
       columns: '2'
   - block: experience
     content:
-      title: Invited Talks
+      title: Talks
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -151,18 +151,14 @@ sections:
           date_start: '2025-09-03'
           description: |2-
             * Joint invited talk with Jonas Bayer presenting Kimina Prover
-            * Presented our reinforcement learning approach to automated theorem proving
-            * Demonstrated state-of-the-art performance on formal reasoning benchmarks
 
-        - title: Kimina Prover Talk
+        - title: Kimina Prover - Test-time RL enabled Theorem Proving with Large Formal Reasoning Models
           company: Amazon Web Services (AWS)
           company_url: 'https://aws.amazon.com/'
           location: 'London, UK'
           date_start: '2025-08-27'
           description: |2-
             * Presented Kimina Prover to the AWS Reasoning Group
-            * Discussed applications of RL for program verification and formal reasoning
-            * Shared insights on scaling formal reasoning models
     design:
       columns: '2'
 ---
