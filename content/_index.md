@@ -149,6 +149,7 @@ sections:
           company_url: 'https://aitp-conference.org/2025/'
           location: 'Aussois, France'
           date_start: '2025-09-03'
+          date_end: '2025-09-03'
           description: |2-
             * Joint invited talk with Jonas Bayer presenting Kimina Prover
 
@@ -157,6 +158,7 @@ sections:
           company_url: 'https://aws.amazon.com/'
           location: 'London, UK'
           date_start: '2025-08-27'
+          date_end: '2025-08-27'
           description: |2-
             * Presented Kimina Prover to the AWS Reasoning Group
     design:
