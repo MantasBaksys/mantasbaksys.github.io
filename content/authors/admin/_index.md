@@ -18,21 +18,22 @@ bio:
 # Interests to show in About widget
 interests:
   - Automated theorem proving using Reinforcement Learning
-  - Formal theorem proving
+  - Formal theorem proving and verification
   - Interactive theorem provers and their ecosystems
+  - Mathematical formalization in Lean and Isabelle/HOL
 
 # Education to show in About widget
 education:
   courses:
-    - course: BA, Mathematics
+    - course: PhD, Computer Science
+      institution: University of Cambridge
+      year: 2024-2028 (expected)
+    - course: MMath, Part III Mathematics
+      institution: University of Cambridge
+      year: 2023-2024
+    - course: BA (Hons), Mathematics
       institution: University of Cambridge
       year: 2020-2023
-    - course: MMath, Mathematics
-      instituion: University of Cambridge
-      year: 2023-2024
-    - course: PhD, Computer Science
-      institution: Computer Lab, University of Cambridge
-      year: 2024-2028 (expected)
     
 
 # Social/Academic Networking
@@ -57,5 +58,5 @@ social:
 highlight_name: true
 ---
 
-I am a PhD student at the Computer Lab, University of Cambridge supervised by Prof. Sean Holden. My research interests lie the broad areas of Automated Theorem Proving and Formal Mathematics. In particular, I am interesting in application of Machine Learning for proof-discovery in the setting of interactive theorem provers. Feel free to reach out if you find my research interesting!
+I am a PhD student at the Computer Lab, University of Cambridge supervised by Prof. Sean Holden. My research interests lie in the broad areas of Automated Theorem Proving and Formal Mathematics. In particular, I am interested in application of Machine Learning for proof-discovery in the setting of interactive theorem provers. I have experience working with reinforcement learning techniques for formal reasoning, having contributed to state-of-the-art models for autoformalization and proving in Lean 4. Feel free to reach out if you find my research interesting!
 {style="text-align: justify;"}

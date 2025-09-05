@@ -65,13 +65,25 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Contributor
+        - title: Applied Scientist Intern
+          company: AWS Reasoning Group
+          company_url: 'https://aws.amazon.com/'
+          location: 'London, UK'
+          date_start: '2025-07-01'
+          description: |2-
+            * Supervised by Dr. Stefan Zetsche, working on Reinforcement Learning for program verification
+            * Developing novel RL approaches for automated theorem proving and formal verification
+
+
+        - title: Researcher
           company: Project Numina
           company_url: 'https://projectnumina.ai/'
           location: 'Remote'
-          date_start: '2024-09-20'
+          date_start: '2024-09-01'
           description: |2-
-            Building autoformalization and prover models in Lean
+            * Using RL techniques to train AI models for Interactive Theorem Proving in Lean 4
+            * Development of Lean-Python interfaces for dataset and benchmark creation and curation
+            * Released open-source models for autoformalization and proving in Lean 4 with state-of-the-art performance on the miniF2F benchmark
 
 
         - title: Student Researcher

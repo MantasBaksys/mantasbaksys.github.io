@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} 
+\usepackage[parfill]{parskip}
+\usepackage{hyperref}% Document margins
+\usepackage{enumitem}
+
+
+\renewcommand{\refname}{}
+
+\name{Mantas Bakšys} % Your name
+\address{mantasbaksys.github.io \\ mb2412@cam.ac.uk \\ github.com/MantasBaksys} % Your phone number and email
+
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{AWS Reasoning Group}{July 2025 - Present}{Applied Scientist Intern}{Full-time, London, UK}
+
+\item Supervised by Dr. Stefan Zetsche, working on RL for program verification.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Project Numina}{September 2024 - Present}{Researcher}{Part-time, Remote}
+\item Using RL techniques to train AI models for Interactive Theorem Proving in Lean 4.
+\item Development of Lean-Python interfaces for dataset and benchmark creation and curation.
+\item Released open-source models for autoformalization and proving in Lean 4 and achieved state-of-the art performance on the miniF2F benchmark in two separate realeases (\href{https://arxiv.org/abs/2504.11354}{arXiv}, \href{https://huggingface.co/blog/AI-MO/kimina-prover}{HuggingFace}).
+
+\end{rSubsection}
+
+
+\begin{rSubsection}{University of Cambridge, DPMMS}{July 2023 - September 2023}{Summer Research Student}{Cambridge, UK}
+\item Worked in a research group led by Professor Timothy Gowers on automated theorem-proving.
+\item Focus on motivated proof discovery using the Lean theorem prover.
+\item Jointly developed an interactive Lean program to guide further research in human-oriented proving.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Cambridge, Computer Lab}{June 2022 - August 2022}{Summer Research Student}{Cambridge, UK}
+\item Worked in the ALEXANDRIA group supervised by Dr. Angeliki Koutsoukou-Argyraki.
+\item Successful formalisation of Master's level material in Additive Combinatorics including \\ the Balog-Szemeredi-Gowers theorem.
+\item Co-authored a paper accepted to CPP $2023$ (\href{https://dl.acm.org/doi/10.1145/3573105.3575680}{Link to Open Access}).
+
+\end{rSubsection}
+
+\begin{rSubsection}{Open AI}{December 2021 - January 2022}{Research Intern}{Online}
+\item Worked with Stanislas Polu on training ML models to find formal proofs using the Lean theorem prover.
+\item Analyzed properties of trained models and investigated new research directions.
+\item Co-authored a paper accepted to ICLR $2023$, which can be found on \href{https://arxiv.org/abs/2202.01344}{arXiv}.
+\end{rSubsection}
+
+
+%------------------------------------------------
+
+\begin{rSubsection}{University of Cambridge, DPMMS}{June 2021 - August 2021}{Summer Research Student}{Cambridge, UK}
+\item Worked with Dr Aled Walker investigating  the Multiplication Table problem for bipartite graphs.
+\item Co-authored a preprint that can be found on \href{https://arxiv.org/abs/2109.08485}{arXiv}.
+\end{rSubsection}
+
+%------------------------------------------------
+
+%\begin{rSubsection}{Visma}{June 2019 - July 2019}{Software Development Intern}{Vilnius, Lithuania}
+%\item Built an AutoChess based combat simulator using C\#
+%\item Developed a program to predict outcomes of a combat simulator using regression trees
+%\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Education}
+
+{\bf St. Catharine's College, University of Cambridge} \hfill {2024-2028 (expected)} \\
+PhD, Computer Science
+
+\vspace{-0.1cm}
+
+{\bf St. Catharine's College, University of Cambridge} \hfill {2023-2024} \\
+MMath, Part III Mathematics \\
+Grade: Merit
+
+
+\vspace{-0.1cm}
+{\bf St. Catharine's College, University of Cambridge} \hfill {2020-2023} \\ 
+BA (Hons), Mathematics Tripos \\
+Grade: 2.i
+
+\vspace{-0.1cm}
+{\bf Vilnius Jesuit Gymnasium} \hfill {2016-2020} \\
+Lithuanian Brandos Atestatas \\
+Overall average grade 10/10 (highest), top 0.5\% %0.5\% in Lithuania
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Awards, Achievements \& Hobbies}
+\begin{list}{$\cdot$}{\leftmargin=0em}
+\setlength\itemsep{-1.5em}
+    \item Represented Team Lithuania at the International Mathematical Olympiad \\
+    \item Contributor to Lean's mathematical library Mathlib
+\end{list}
+\end{rSection}
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Lean, Isabelle/HOL, LaTeX, C++ , C\#, Python, TypeScript, JavaScript 
+\end{tabular}
+
+\begin{rSection}{Publication List}
+\end{rSection}
+\begin{thebibliography}{99}
+\vspace{-3.5em}
+
+\bibitem{polu2022formal}
+S.~Polu, J.M~Han, K.~Zheng, M.~Baksys, I.~Babuschkin, and I.~Sutskever. \\
+\newblock Formal Mathematics Statement Curriculum learning.
+\newblock {\em arXiv preprint arXiv:2202.01344, published at ICLR 2023}, 2022.
+
+\bibitem{wang2025kimina-preview}
+H.~Wang, M.~Unsal, X.~Lin, M.~Baksys, J.~Liu, M.D~Santos, F.~Sung, M.~Vinyes, et~al. \\
+\newblock Kimina-Prover Preview: Towards Large Formal Reasoning Models with Reinforcement Learning.
+\newblock {\em arXiv preprint arXiv:2504.11354}, 2025.
+
+\bibitem{wang2025kimina}
+H.~Wang, M.~Unsal, X.~Lin, M.~Baksys, J.~Liu, M.D~Santos, F.~Sung, M.~Vinyes, et~al. \\
+\newblock Kimina-Prover: Applying Test-time RL Search on Large Formal Reasoning Models
+\newblock {\em Huggingface Blog: https://huggingface.co/blog/AI-MO/kimina-prover}, 2025.
+
+\bibitem{koutsoukou2023formalisation}
+A.~Koutsoukou-Argyraki, M.~Bakšys, and C.~Edmonds. \\
+\newblock A formalisation of the Balog–Szemerédi–Gowers theorem in Isabelle/HOL.
+\newblock In {\em Proceedings of the 12th ACM SIGPLAN International Conference on Certified Programs and Proofs}, 2023.
+
+
+\bibitem{santos2025kimina}
+M.D~Santos, H.~Wang, H.~de~Saxcé, R.~Wang, M.~Baksys, M.~Unsal, J.~Liu, et~al. \\
+\newblock Kimina Lean Server: Technical Report.
+\newblock {\em arXiv preprint arXiv:2504.21230}, 2025.
+
+
+\bibitem{baksys2025generalization}
+M.~Bakšys. \\
+\newblock A generalization of the Cauchy–Davenport theorem.
+\newblock {\em Archive of Formal Proofs}, 2023.
+
+
+\bibitem{baksys2022kneser}
+M.~Bakšys and A.~Koutsoukou-Argyraki. \\
+\newblock Kneser's theorem and the Cauchy–Davenport theorem.
+\newblock {\em Archive of Formal Proofs}, 2022.
+
+\end{thebibliography}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
